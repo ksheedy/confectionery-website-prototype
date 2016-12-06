@@ -26,8 +26,8 @@ body {
 
 header {
   background-color: #007eff;
+  padding: 1em 0;
   text-align: center;
-  padding: 1rem;
 }
 
 header img {
@@ -38,9 +38,34 @@ header img {
 
 header h1 {
   margin: 0;
+  text-align: center;
   color: #fff;
   font-family: "Lobster", cursive;
   font-size: 3rem;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.nav li {
+  display: block;
+}
+
+.nav a {
+  color: #fff;
+  display: block;
+  padding: .5em .75em;
+  background-color: #007eff;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: #000;
 }
 
 h2 {
