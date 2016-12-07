@@ -177,3 +177,71 @@ blockquote {
   font-size: 175%;
   font-family: "Lobster", cursive;
 }
+
+.contact-section {
+  background-color: #d5d5d5;
+  padding-bottom: 1em;
+}
+
+.main, .west, .east {
+  margin: 1em;
+  text-align: center;
+  background-color: #007eff;
+  padding: 1em;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.location-img {
+  width: 100%;
+  max-width: 25em;
+}
+
+.main h3, .west h3, .east h3 {
+  margin: .5em;
+  font-family: "Lobster", cursive;
+  font-size: 175%;
+}
+
+.main p, .west p, .east p {
+  margin: 0.5em;
+}
+
+.hours-section {
+  text-align: center;
+  background-color: #d5d5d5;
+  padding-bottom: 1em;
+}
+
+.main-hours h3, .west-hours h3, .east-hours h3 {
+  font-family: "Lobster", cursive;
+  font-size: 175%;
+  margin: 0;
+}
+
+.hours-img {
+  width: 100%;
+  max-width: 25em;
+  padding: 1em;
+}
+
+.hours {
+  background-color: #007eff;
+  padding: 1em;
+  margin: 0 2em 1em;
+  color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+dt {
+  margin: 0;
+  float: left;
+  width: 50%
+}
+
+dd {
+  margin: 0;
+  float: left;
+  width: 50%;
+}
