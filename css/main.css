@@ -147,3 +147,33 @@ h2 {
   padding: .25em;
   border-radius: 8px;
 }
+
+figure {
+  margin: 1em;
+  padding: 1em;
+  background-color: #007eff;
+  border-radius: 8px;
+}
+
+figure img {
+  width: 100%;
+  max-width: 25em;
+}
+
+figure figcaption {
+  font-size: 75%;
+  color: #fff;
+}
+
+.about-beaus {
+  margin: 1em;
+}
+
+blockquote {
+  background-color: #007eff;
+  color: #fff;
+  padding: 1em;
+  border-radius: 8px;
+  font-size: 175%;
+  font-family: "Lobster", cursive;
+}
