@@ -40,7 +40,7 @@ header h1 {
   margin: 0;
   text-align: center;
   color: #fff;
-  font-family: 'Lobster', cursive;
+  font-family: Lobster, cursive;
   font-size: 3rem;
 }
 
@@ -69,7 +69,7 @@ header h1 {
 }
 
 h2 {
-  font-family: 'Lobster', cursive;
+  font-family: Lobster, cursive;
   padding: 1rem;
   background-color: #404040;
   color: #fff;
@@ -110,7 +110,7 @@ h2 {
 
 .product-card-body {
   margin: 1em;
-  background-color: rgba(0, 126, 255, 0.25);
+  background-color: rgba(0, 126, 255, .25);
   color: #fff;
   z-index: 100;
   position: absolute;
@@ -129,6 +129,7 @@ h2 {
 .promo-card {
   margin: 1em;
 }
+
 .promo-list {
   list-style-type: none;
   padding: 0;
@@ -175,7 +176,7 @@ blockquote {
   padding: 1em;
   border-radius: 8px;
   font-size: 175%;
-  font-family: "Lobster", cursive;
+  font-family: Lobster, cursive;
 }
 
 .contact-section {
@@ -199,12 +200,12 @@ blockquote {
 
 .main h3, .west h3, .east h3 {
   margin: .5em;
-  font-family: "Lobster", cursive;
+  font-family: Lobster, cursive;
   font-size: 175%;
 }
 
 .main p, .west p, .east p {
-  margin: 0.5em;
+  margin: .5em;
 }
 
 .hours-section {
@@ -214,7 +215,7 @@ blockquote {
 }
 
 .main-hours h3, .west-hours h3, .east-hours h3 {
-  font-family: "Lobster", cursive;
+  font-family: Lobster, cursive;
   font-size: 175%;
   margin: 0;
 }
@@ -237,7 +238,7 @@ blockquote {
 dt {
   margin: 0;
   float: left;
-  width: 50%
+  width: 50%;
 }
 
 dd {
