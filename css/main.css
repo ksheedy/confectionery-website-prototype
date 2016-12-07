@@ -245,3 +245,21 @@ dd {
   float: left;
   width: 50%;
 }
+
+footer {
+  background-color: #007eff;
+  color: #fff;
+  text-align: center;
+}
+
+footer img {
+  width: 100%;
+  max-width: 4em;
+  padding: .5em;
+}
+
+footer p {
+  padding: .5em;
+  font-size: 75%;
+  margin: 0;
+}
