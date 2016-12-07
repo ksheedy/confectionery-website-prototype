@@ -121,3 +121,29 @@ h2 {
 .product-body h3 {
   padding: 1em;
 }
+
+.promotions-section {
+  text-align: center;
+}
+
+.promo-card {
+  margin: 1em;
+}
+.promo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.promo-card-img {
+  width: 100%;
+  max-width: 10em;
+  margin: 1em;
+}
+
+.promo-card-body {
+  width: 100%;
+  color: #fff;
+  background-color: #007eff;
+  padding: .25em;
+  border-radius: 8px;
+}
