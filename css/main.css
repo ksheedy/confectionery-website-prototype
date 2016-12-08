@@ -579,4 +579,6 @@ footer p {
     font-size: 130%;
     line-height: 1.5;
   }
+
+  //*in order to make the line length look good at large sizes, how about having extra images that present themselves at the largest screen size?*//
 }
