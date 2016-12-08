@@ -100,11 +100,12 @@ h2 {
 
 .product-body {
   position: relative;
+  max-width: 25em;
+  margin: 0 auto;
 }
 
 .product-card-img {
   width: 100%;
-  max-width: 25em;
   padding: 1em;
 }
 
@@ -177,6 +178,7 @@ blockquote {
   border-radius: 8px;
   font-size: 175%;
   font-family: Lobster, cursive;
+  text-align: center;
 }
 
 .contact-section {
@@ -209,9 +211,9 @@ blockquote {
 }
 
 .hours-section {
-  text-align: center;
   background-color: #d5d5d5;
   padding-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 .main-hours h3, .west-hours h3, .east-hours h3 {
@@ -222,8 +224,9 @@ blockquote {
 
 .hours-img {
   width: 100%;
-  max-width: 25em;
   padding: 1em;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .hours {
@@ -233,6 +236,7 @@ blockquote {
   color: #fff;
   border-radius: 8px;
   overflow: hidden;
+  text-align: center;
 }
 
 dt {
@@ -280,6 +284,15 @@ footer p {
     display: inline-block;
   }
 
+  .home-section > img {
+    text-align: center;
+    max-width: none;
+  }
+
+  .candy-card {
+    text-align: center;
+  }
+
   .promo-card {
     margin: 2em 1em;
     overflow: hidden;
@@ -287,13 +300,13 @@ footer p {
 
   .promo-card-img {
     float: left;
-    width: 45%;
+    width: 50%;
     margin: 0;
   }
 
   .promo-card-body {
     float: right;
-    width: 45%;
+    width: 50%;
   }
 
   .promo-card-body h3, .promo-card-body p {
@@ -302,6 +315,41 @@ footer p {
 
   .about-section {
     clear: both;
+  }
+
+  figure img {
+    width: 100%;
+    margin: 0 auto;
+    max-width: none;
+  }
+
+  .main, .west, .east {
+    max-width: 22em;
+    width: 100%;
+    padding: 1em;
+    margin: 1em auto;
+  }
+
+  .location-img {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 20em;
+  }
+
+  .hours-card {
+    text-align: center;
+  }
+
+  .hours-img {
+    max-width: 20em;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .hours {
+    max-width: 20em;
+    width: 100%;
+    margin: 0 auto;
   }
 }
 
@@ -370,10 +418,6 @@ footer p {
     max-width: 30em;
   }
 
-  blockquote {
-    text-align: center;
-  }
-
   .contact-section {
     text-align: center;
   }
@@ -395,16 +439,25 @@ footer p {
     overflow: hidden;
   }
 
+  .main-hours, .west-hours, .east-hours {
+    margin: 1em;
+  }
+
+  .hours-card {
+    margin: 1em;
+    overflow: hidden;
+  }
+
   .hours-img {
-    display: inline-block;
     float: left;
     width: 45%;
+    max-width: none;
   }
 
   .hours {
-    display: inline-block;
     float: right;
     width: 40%;
+    max-width: none;
   }
 }
 
