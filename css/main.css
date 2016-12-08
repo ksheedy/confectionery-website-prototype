@@ -447,6 +447,7 @@ footer p {
     float: right;
     width: 40%;
     max-width: none;
+    margin-top: 1em;
   }
 
   footer {
@@ -469,6 +470,107 @@ footer p {
     font-size: 120%;
     line-height: 1.5;
   }
+
+  header {
+    overflow: hidden;
+    padding: 0;
+    margin-bottom: 1em;
+  }
+
+  header img {
+    float: left;
+    width: 30%;
+    max-width: 10em;
+    margin: 1em;
+  }
+
+  header h1 {
+    margin-top: 1em;
+  }
+
+  section {
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+
+  .home-section {
+    overflow: hidden;
+  }
+
+  .home-img {
+    float: left;
+    width: 50%;
+  }
+
+  .candy-card {
+    float: left;
+    width: 33.33%;
+  }
+
+  .promo-card-img {
+    float: none;
+    width: 100%;
+    margin: 1em;
+  }
+
+  .promo-card-body {
+    float: none;
+    width: 100%;
+  }
+
+  .promo-card {
+    float: left;
+    width: 29%;
+    margin: 1em;
+  }
+
+  about-section {
+    overflow: hidden;
+  }
+
+  figure {
+    float: left;
+    width: 50%;
+  }
+
+  .about-beaus {
+    padding-top: 1em;
+  }
+
+  blockquote {
+    clear: left;
+    margin: 1em;
+  }
+
+  .contact-section {
+    overflow: hidden;
+  }
+
+  .main, .west, .east {
+    float: left;
+    width: 31%;
+    margin: .5em;
+  }
+
+  .hours-card {
+    float: left;
+    width: 29%;
+  }
+
+  .hours-img {
+    float: none;
+    width: 100%;
+  }
+
+  .hours {
+    float: none;
+    width: 100%;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
