@@ -81,7 +81,7 @@ h2 {
 
 .home-img {
   width: 100%;
-  max-width: 30em;
+  margin: 0 auto;
   padding: 0 1em;
 }
 
@@ -159,7 +159,7 @@ figure {
 
 figure img {
   width: 100%;
-  max-width: 25em;
+  margin: 0 auto;
 }
 
 figure figcaption {
@@ -372,10 +372,6 @@ footer p {
     padding: .25em;
   }
 
-  .home-section img {
-    max-width: 35em;
-  }
-
   .hard-candy-card {
     float: left;
     width: 50%;
@@ -412,10 +408,6 @@ footer p {
 
   .promo-card-body {
     width: 65%;
-  }
-
-  figure img {
-    max-width: 30em;
   }
 
   .contact-section {
