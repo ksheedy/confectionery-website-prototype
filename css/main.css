@@ -81,7 +81,7 @@ h2 {
 
 .home-img {
   width: 100%;
-  max-width: 25em;
+  max-width: 30em;
   padding: 0 1em;
 }
 
@@ -310,6 +310,101 @@ footer p {
   html {
     font-size: 110%;
     line-height: 1.4;
+  }
+
+  header img {
+    max-width: 15em;
+  }
+
+  .nav {
+    padding: 0 1em;
+  }
+
+  .nav a {
+    padding: .25em;
+  }
+
+  .home-section img {
+    max-width: 35em;
+  }
+
+  .hard-candy-card {
+    float: left;
+    width: 50%;
+  }
+
+  .products-section {
+    overflow: hidden;
+  }
+
+  .sugarfree-candy-card {
+    float: right;
+    width: 50%;
+  }
+
+  .taffy-candy-card {
+    float: left;
+    width: 50%;
+  }
+
+  .gummy-candy-card {
+    float: right;
+    width: 50%;
+  }
+
+  .sour-candy-card {
+    float: left;
+    width: 50%;
+  }
+
+  .lollypop-candy-card {
+    float: right;
+    width: 50%;
+  }
+
+  .promo-card-body {
+    width: 65%;
+  }
+
+  figure img {
+    max-width: 30em;
+  }
+
+  blockquote {
+    text-align: center;
+  }
+
+  .contact-section {
+    text-align: center;
+  }
+
+  .main, .west, .east {
+    display: inline-block;
+  }
+
+  .location-img {
+    display: inline-block;
+    max-width: 15em;
+  }
+
+  .contact-body {
+    display: inline-block;
+  }
+
+  .hours-section {
+    overflow: hidden;
+  }
+
+  .hours-img {
+    display: inline-block;
+    float: left;
+    width: 45%;
+  }
+
+  .hours {
+    display: inline-block;
+    float: right;
+    width: 40%;
   }
 }
 
