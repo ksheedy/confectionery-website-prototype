@@ -123,12 +123,9 @@ h2 {
   padding: 1em;
 }
 
-.promotions-section {
-  text-align: center;
-}
-
 .promo-card {
   margin: 1em;
+  text-align: center;
 }
 
 .promo-list {
