@@ -63,7 +63,6 @@ header h1 {
 }
 
 .nav a {
-  color: #fff;
   display: block;
   padding: .5em .75em;
   background-color: #d5d5d5;
@@ -349,6 +348,14 @@ footer p {
   }
 
   .nav-open, .nav-close {
+    display: none;
+  }
+
+  .nav-label {
+    display: none;
+  }
+
+  .nav-check:checked ~ .nav-label .nav-close {
     display: none;
   }
 
