@@ -326,11 +326,30 @@ footer p {
   }
 
   .nav {
-    padding: 0 2em;
+    display: inline-block;
+    position: static;
+    right: auto;
+    top: auto;
+    width: auto;
+    border: none;
+    margin-top: 1em;
   }
 
   .nav li {
     display: inline-block;
+  }
+
+  .nav li a {
+    display: inline-block;
+    margin: 0;
+    background-color: inherit;
+    color: #fff;
+    padding: .25em .75em;
+    border-radius: 4px;
+  }
+
+  .nav-open, .nav-close {
+    display: none;
   }
 
   .home-section > img {
