@@ -160,6 +160,10 @@ h2 {
   padding: 1em;
 }
 
+.candy-card {
+
+}
+
 .product-card-body {
   margin: 1em;
   background-color: rgba(0, 126, 255, .25);
@@ -628,7 +632,8 @@ footer p {
 
   .main, .west, .east {
     float: left;
-    width: 31%;
+    max-width: none;
+    width: calc(33% - 1em);
     margin: .5em;
   }
 
@@ -695,6 +700,7 @@ footer p {
 
   .contact-section-body {
     margin: 0 10em;
+    overflow: hidden;
   }
 
   .hours-wrapper {
